@@ -1,0 +1,19 @@
+!!!
+%html.no-js
+  %head
+    %title RLVNT is a Photography Website
+    
+    %link{:rel => "stylesheet", :href=>'/css/reset.css', :type => "text/css"}
+    %link{:rel => "stylesheet/less", :href=>'/css/style.less', :type => "text/css"}
+    
+    %script{:src => "http://lesscss.googlecode.com/files/less-1.0.18.min.js"}
+    %script{:src => "/js/modernizr.js"}
+    
+  %body
+    %header
+    %nav
+    
+    %article
+      = yield
+      
+    %footer
