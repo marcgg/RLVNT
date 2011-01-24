@@ -1,0 +1,5 @@
+Simple photography website featured on http://rlvnt.net
+
+The whole thing is running on Sinatra. Templates use haml. LESSJS runs the layout. Props to Shotgun for local development.
+
+More to come, but no one should care about this repo.
