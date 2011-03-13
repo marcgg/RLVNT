@@ -8,5 +8,5 @@ get '/' do
 end
 
 get '/:page' do
-  haml params[:page]
+  haml params[:page].to_sym
 end
