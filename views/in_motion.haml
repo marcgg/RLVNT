@@ -1,0 +1,10 @@
+%p{:style => "color:#fff; text-align:center;"}
+  A train ride between Sarajevo & Belgrade.
+
+- urls = ["http://farm6.static.flickr.com/5143/5585490471_09149426ba_b.jpg", "http://farm6.static.flickr.com/5176/5586057860_0c2dbcb62e_b.jpg", "http://farm6.static.flickr.com/5150/5586079278_0665bfde1e_b.jpg", "http://farm6.static.flickr.com/5064/5586075786_61a54be60f_b.jpg", "http://farm6.static.flickr.com/5302/5585478171_8ff83b8cdf_b.jpg", "http://farm6.static.flickr.com/5068/5586065252_7dc99456ab_b.jpg", "http://farm6.static.flickr.com/5025/5585468811_8dd5217f9b_b.jpg"]
+
+- urls.each do |url|
+  %section
+    .img-wrapper
+      %img{:src => url}
+    
